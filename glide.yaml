@@ -1,0 +1,4 @@
+package: .
+import:
+- package: github.com/fuxiaohei/GoInk
+- package: github.com/go-sql-driver/mysql

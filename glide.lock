@@ -1,0 +1,8 @@
+hash: a9fabf5dc0a2ef8b7bddeedabc62a5cbf14ffdc2c72629ced07af6a919d4f81a
+updated: 2016-05-06T17:48:19.868922251+08:00
+imports:
+- name: github.com/fuxiaohei/GoInk
+  version: 4445df3ba23b6640f3b7fae4ee739cda2dfd2648
+- name: github.com/go-sql-driver/mysql
+  version: 7ebe0a500653eeb1859664bed5e48dec1e164e73
+devImports: []

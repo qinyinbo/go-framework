@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title> a go web framework</title>
+    <script src="/static/lib/jquery.form.min.js"></script>
+</head>
+<body>
+<div id="header" class="clear">
+    <div class="container clear">
+        <h3 class="logo left"> a go web framework<span>{{.Title}}</span></h3>
+</div>
+{@Content}
+    <div class="container clear">
+        <p class="cp text-center">qinyinbo</p>
+    </div>
+</div>
+</body>
+</html>
