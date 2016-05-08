@@ -10,7 +10,7 @@ import (
 var sqlDb *sql.DB
 
 func Connect(config string) (*sql.DB, error) {
-	db, err := sql.Open("mysql", "root:root@10.16.29.176@tcp(127.0.0.1:3306)/qihoo_ldap")
+	db, err := sql.Open("mysql", "root:pass@tcp(127.0.0.1:3306)/user_db")
 	return db, err
 }
 
